@@ -81,19 +81,25 @@ a{
 }
 
 .banner{
-  width: 100%;
   position: relative;
+  text-align: center;
+  font-size: 2rem;
+
+}
+
+.banner-img{
+  width: 100%;
 }
 
 h4{
   position: absolute;
-  display: inline-block;
-  bottom: 260px;
-  color: #fff;
-  font-style: italic;
-  text-align: center;
+  bottom: 0;
   width: 100%;
+  text-align: center;
   text-shadow: .1em .1em .1em #222;
+  font-size: 2rem;
+  font-style: italic;
+  color: #fff;
 }
 
 .dragon-text{
@@ -137,13 +143,11 @@ h4{
   color: #fff;
 }
 
-g-text{
-  color: #fff;
-}
-
 h3{
   text-align: center;
   font-weight: bold;
+  font-size: 2rem;
+  margin: 0;
 }
 
 .paragraphs{
